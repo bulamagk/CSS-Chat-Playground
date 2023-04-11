@@ -106,3 +106,9 @@ input[type="button"] {
 input[type="button"]:is(:hover, :focus) {
   opacity: 0.7;
 }
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
