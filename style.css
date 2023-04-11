@@ -114,7 +114,9 @@ input[type="button"]:is(:hover, :focus) {
 
   .chat-container {
     margin: 0;
+    padding-bottom: 10svh;
     height: 100svh;
+    border-radius: 0px;
   }
 
   .chat--receive {
@@ -127,5 +129,10 @@ input[type="button"]:is(:hover, :focus) {
 
   .chat__text {
     padding: 0.5em;
+  }
+
+  .chat__form {
+    position: fixed;
+    inset: auto 0 0 0;
   }
 }
