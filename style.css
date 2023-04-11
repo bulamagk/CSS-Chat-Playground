@@ -111,4 +111,21 @@ input[type="button"]:is(:hover, :focus) {
   .container {
     width: 100%;
   }
+
+  .chat-container {
+    margin: 0;
+    height: 100svh;
+  }
+
+  .chat--receive {
+    padding-left: 1em;
+  }
+
+  .chat--send {
+    padding-right: 1em;
+  }
+
+  .chat__text {
+    padding: 0.5em;
+  }
 }
